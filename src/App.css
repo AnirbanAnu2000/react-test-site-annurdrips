@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gluten', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  color: #444;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-brand {
+  font-family: 'Italianno', cursive;
+  font-size: 35px !important;
+  font-weight: 700;
+}
+
+.main-heading {
+  color: blue;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.underline {
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 0, 85);
+  border-radius: 50%;
+}
+
+.bg1 {
+  background-color: #eee;
+}
+
+.border1 {
+  border-top: 3px solid #ccc;
+}
+
+.about-page {
+  background: url(https://images.pexels.com/photos/1342460/pexels-photo-1342460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center;
+  background-size: cover;
+  height: 580px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about-page h2 {
+  font-size: 130px;
+  color: rgb(0, 195, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-construction {
+  font-size: 40px;
+  color: rgb(23, 25, 26);
+  background-color: rgb(171, 141, 228);
+  padding: 10px;
+  border-radius: 10px;
 }
